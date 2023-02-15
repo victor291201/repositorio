@@ -1,0 +1,62 @@
+.contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.pt1{
+    background-color: #7F00B2;
+    width: 50%;
+    height: 100%;
+}
+.pt2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.igd{
+    width: 80px;
+    height: 80px;
+    background-image: url("../utileria/logo.png");
+    background-size: cover;
+    background-position: center;
+}
+.usuario{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.usuario input{
+    width: 270px;
+}
+.contraseña{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.contraseña input{
+    width: 270px;
+}
+.adicionales{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    height: 20px;
+}
+.recordarme{
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
