@@ -23,7 +23,7 @@ function IniciarSesion() {
                     </div>
                     <a>Olvide mi contraseña</a>
                 </div>
-                <button>Iniciar iniciarSesion</button>
+                <button>Iniciar Sesion</button>
             </div>
         </div>
       </div>

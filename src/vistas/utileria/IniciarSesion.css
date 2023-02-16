@@ -25,38 +25,91 @@
     align-items: center;
 }
 .igd{
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     background-image: url("../utileria/logo.png");
     background-size: cover;
     background-position: center;
 }
 .usuario{
-    width: 270px;
+    width: 300px;
     display: flex;
     flex-direction: column;
+    margin-top:-15px;
+}
+.usuario label{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
 }
 .usuario input{
-    width: 270px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: #F1F1F1;
+    box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.25), inset 0px -4px 5px rgba(255, 255, 255, 0.25), inset 4px 0px 5px rgba(0, 0, 0, 0.25), inset -4px 0px 5px rgba(255, 255, 255, 0.25);
 }
 .contraseña{
-    width: 270px;
+    width: 300px;
     display: flex;
     flex-direction: column;
+    margin-top:-15px;
+}
+.contraseña label{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
 }
 .contraseña input{
-    width: 270px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: #F1F1F1;
+    box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.25), inset 0px -4px 5px rgba(255, 255, 255, 0.25), inset 4px 0px 5px rgba(0, 0, 0, 0.25), inset -4px 0px 5px rgba(255, 255, 255, 0.25);
 }
 .adicionales{
-    width: 270px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 11px;
     height: 20px;
+    margin-top:-20px;
+    margin-bottom: -15px;
 }
 .recordarme{
     display: flex;
     align-items: center;
     height: 20px;
+}
+.recordarme input, .recordarme label{
+    cursor: pointer;
+}
+.adicionales a{
+    text-decoration: underline;
+    color: #0069C0;
+    font-style: italic;
+    cursor: pointer;
+}
+.formulario button{
+    border-radius: 5px;
+    background-color: #7F00B2;
+    border: none;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
